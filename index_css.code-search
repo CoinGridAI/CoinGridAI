@@ -1,0 +1,4 @@
+# Query: index.css
+# ContextLines: 1
+
+@import "tailwindcss";
