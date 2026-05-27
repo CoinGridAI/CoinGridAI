@@ -17,8 +17,8 @@ export default function App() {
         </div>
 
         <nav className="hidden md:flex items-center gap-8 text-sm text-gray-300">
-          <a href="#about" className="hover:text-yellow-400 transition">Sobre</a>
-          <a href="#features" className="hover:text-yellow-400 transition">Tecnologia</a>
+          <a href="#about" className="hover:text-yellow-400 transition">On</a>
+          <a href="#features" className="hover:text-yellow-400 transition">Technology</a>
           <a href="#roadmap" className="hover:text-yellow-400 transition">Roadmap</a>
           <a href="#token" className="hover:text-yellow-400 transition">Token</a>
         </nav>
@@ -32,19 +32,19 @@ export default function App() {
           </div>
 
           <h2 className="text-5xl lg:text-7xl font-black leading-tight mb-6">
-            O Futuro da
+            The Future of
             <span className="bg-gradient-to-r from-yellow-300 via-orange-400 to-yellow-500 bg-clip-text text-transparent block">
-              Cripto Inteligente
+              Smart Crypto
             </span>
           </h2>
 
           <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-xl">
-            CoinGridAI é um projeto focado em inteligência artificial distribuída, mineração inteligente e integração blockchain para criar uma nova geração de ativos digitais escaláveis.
+            CoinGridAI is a project focused on distributed artificial intelligence, intelligent mining, and blockchain integration to create a new generation of scalable digital assets.
           </p>
 
           <div className="flex flex-wrap gap-4">
             <button className="px-8 py-4 rounded-2xl bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold shadow-xl shadow-yellow-500/30 hover:scale-105 transition">
-              Comprar Token
+              Buy Token
             </button>
 
             <button className="px-8 py-4 rounded-2xl border border-gray-700 hover:border-yellow-400 hover:text-yellow-300 transition">
@@ -55,17 +55,17 @@ export default function App() {
           <div className="flex gap-8 mt-10 text-sm text-gray-400">
             <div>
               <p className="text-3xl font-bold text-white">+120K</p>
-              <span>Usuários</span>
+              <span>Users</span>
             </div>
 
             <div>
               <p className="text-3xl font-bold text-white">99.9%</p>
-              <span>Segurança</span>
+              <span>Security</span>
             </div>
 
             <div>
               <p className="text-3xl font-bold text-white">24/7</p>
-              <span>IA Ativa</span>
+              <span>Active AI</span>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ export default function App() {
             <div className="space-y-5">
               <div className="bg-black/40 rounded-2xl p-5 border border-gray-800">
                 <div className="flex justify-between mb-2 text-sm text-gray-400">
-                  <span>Rede Inteligente</span>
+                  <span>Smart Network</span>
                   <span>100%</span>
                 </div>
                 <div className="w-full h-3 bg-gray-800 rounded-full overflow-hidden">
@@ -104,7 +104,7 @@ export default function App() {
                 </div>
 
                 <div className="bg-black/40 rounded-2xl p-5 border border-gray-800">
-                  <p className="text-gray-400 text-sm mb-1">IA Nodes</p>
+                  <p className="text-gray-400 text-sm mb-1">AI Nodes</p>
                   <h4 className="text-xl font-bold">12.5K</h4>
                 </div>
               </div>
@@ -116,9 +116,9 @@ export default function App() {
       {/* About */}
       <section id="about" className="relative z-10 px-8 py-24 border-t border-gray-800 bg-black/40">
         <div className="max-w-6xl mx-auto text-center">
-          <h3 className="text-4xl font-black mb-6">O que é CoinGridAI?</h3>
+          <h3 className="text-4xl font-black mb-6">What is CoinGridAI?</h3>
           <p className="text-gray-400 max-w-3xl mx-auto text-lg leading-relaxed">
-            Um ecossistema digital criado para unir inteligência artificial, mineração descentralizada e blockchain escalável. O objetivo é permitir que usuários comuns possam participar da evolução da IA utilizando computadores domésticos.
+            A digital ecosystem created to combine artificial intelligence, decentralized mining, and scalable blockchain technology. Its goal is to allow everyday users to participate in the evolution of AI using home computers.
           </p>
         </div>
       </section>
@@ -126,32 +126,32 @@ export default function App() {
       {/* Features */}
       <section id="features" className="relative z-10 px-8 py-24 max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h3 className="text-4xl font-black mb-4">Tecnologia Inteligente</h3>
-          <p className="text-gray-400">Recursos principais do ecossistema CoinGridAI</p>
+          <h3 className="text-4xl font-black mb-4">Intelligent Technology</h3>
+          <p className="text-gray-400">Key Features of the CoinGridAI Ecosystem</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-3xl p-8 hover:border-yellow-500/40 transition">
             <div className="text-5xl mb-6">🤖</div>
-            <h4 className="text-2xl font-bold mb-4">IA Distribuída</h4>
+            <h4 className="text-2xl font-bold mb-4">Distributed AI</h4>
             <p className="text-gray-400 leading-relaxed">
-              Utilize notebooks e computadores comuns para alimentar a rede inteligente.
+              Use laptops and regular computers to power the intelligent network.
             </p>
           </div>
 
           <div className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-3xl p-8 hover:border-yellow-500/40 transition">
             <div className="text-5xl mb-6">⛓️</div>
-            <h4 className="text-2xl font-bold mb-4">Blockchain Própria</h4>
+            <h4 className="text-2xl font-bold mb-4">Native Blockchain</h4>
             <p className="text-gray-400 leading-relaxed">
-              Sistema rápido e escalável focado em segurança e inteligência computacional.
+              A fast and scalable system focused on security and computational intelligence.
             </p>
           </div>
 
           <div className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-3xl p-8 hover:border-yellow-500/40 transition">
             <div className="text-5xl mb-6">⚡</div>
-            <h4 className="text-2xl font-bold mb-4">Baixo Consumo</h4>
+            <h4 className="text-2xl font-bold mb-4">Low Power Consumption</h4>
             <p className="text-gray-400 leading-relaxed">
-              Projeto otimizado para funcionar até mesmo em hardware doméstico.
+              An optimized project designed to run even on home hardware.
             </p>
           </div>
         </div>
@@ -162,30 +162,30 @@ export default function App() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h3 className="text-4xl font-black mb-4">Roadmap</h3>
-            <p className="text-gray-400">Evolução planejada do projeto</p>
+            <p className="text-gray-400">Planned Evolution of the Project</p>
           </div>
 
           <div className="grid md:grid-cols-4 gap-6">
             {[
               {
-                phase: 'Fase 1',
-                title: 'Lançamento',
-                desc: 'Criação do site, identidade visual e comunidade.'
+                phase: 'Phase 1',
+                title: 'Launch',
+                desc: 'Website creation, visual identity, and community building.'
               },
               {
-                phase: 'Fase 2',
+                phase: 'Phase 2',
                 title: 'Token CGAI',
-                desc: 'Implementação do token e primeiros testes de rede.'
+                desc: 'Token implementation and initial network testing.'
               },
               {
-                phase: 'Fase 3',
+                phase: 'Phase 3',
                 title: 'AI Grid',
-                desc: 'Integração da inteligência artificial distribuída.'
+                desc: 'Integration of distributed artificial intelligence.'
               },
               {
-                phase: 'Fase 4',
-                title: 'Expansão Global',
-                desc: 'Listagem em exchanges e expansão internacional.'
+                phase: 'Phase 4',
+                title: 'Global Expansion',
+                desc: 'Exchange listings and international expansion.'
               }
             ].map((item, index) => (
               <div key={index} className="bg-gradient-to-b from-gray-900 to-black border border-gray-800 rounded-3xl p-6 hover:border-yellow-500/40 transition">
@@ -202,17 +202,17 @@ export default function App() {
       <section id="token" className="relative z-10 px-8 py-24 max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h3 className="text-4xl font-black mb-4">Tokenomics</h3>
-          <p className="text-gray-400">Estrutura inicial do token CoinGridAI</p>
+          <p className="text-gray-400">Initial structure of the CoinGridAI token.</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-3xl p-8">
-            <h4 className="text-2xl font-bold mb-6">Distribuição</h4>
+            <h4 className="text-2xl font-bold mb-6">Distribution</h4>
 
             <div className="space-y-5">
               <div>
                 <div className="flex justify-between text-sm mb-2">
-                  <span>Comunidade</span>
+                  <span>Community</span>
                   <span>40%</span>
                 </div>
                 <div className="w-full h-3 bg-gray-800 rounded-full overflow-hidden">
@@ -232,7 +232,7 @@ export default function App() {
 
               <div>
                 <div className="flex justify-between text-sm mb-2">
-                  <span>Liquidez</span>
+                  <span>Liquidity</span>
                   <span>20%</span>
                 </div>
                 <div className="w-full h-3 bg-gray-800 rounded-full overflow-hidden">
@@ -254,15 +254,15 @@ export default function App() {
 
           <div className="bg-gradient-to-br from-yellow-500/10 to-orange-500/10 border border-yellow-500/20 rounded-3xl p-8 flex flex-col justify-center">
             <h4 className="text-3xl font-black mb-6">
-              “A próxima evolução da inteligência artificial descentralizada.”
+              “The next evolution of decentralized artificial intelligence.”
             </h4>
 
             <p className="text-gray-300 leading-relaxed mb-8">
-              CoinGridAI foi criado para transformar computadores comuns em uma rede inteligente global.
+              CoinGridAI was created to transform ordinary computers into a global intelligent network.
             </p>
 
             <button className="px-8 py-4 rounded-2xl bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold hover:scale-105 transition w-fit">
-              Entrar na Comunidade
+              Join the Community
             </button>
           </div>
         </div>
@@ -270,7 +270,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="relative z-10 border-t border-gray-800 px-8 py-10 text-center text-gray-500 text-sm">
-        © 2026 CoinGridAI • Todos os direitos reservados.
+        © 2026 CoinGridAI • All rights reserved.
       </footer>
     </div>
   )
