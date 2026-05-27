@@ -17,7 +17,7 @@ export default function App() {
         </div>
 
         <nav className="hidden md:flex items-center gap-8 text-sm text-gray-300">
-          <a href="#about" className="hover:text-yellow-400 transition">On</a>
+          <a href="#about" className="hover:text-yellow-400 transition">About</a>
           <a href="#features" className="hover:text-yellow-400 transition">Technology</a>
           <a href="#roadmap" className="hover:text-yellow-400 transition">Roadmap</a>
           <a href="#token" className="hover:text-yellow-400 transition">Token</a>
@@ -65,7 +65,7 @@ export default function App() {
 
             <div>
               <p className="text-3xl font-bold text-white">24/7</p>
-              <span>Active AI</span>
+              <span>AI Active</span>
             </div>
           </div>
         </div>
