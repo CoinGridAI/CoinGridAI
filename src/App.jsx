@@ -1,5 +1,6 @@
 export default function App() {
   return (
+    
     <div className="min-h-screen bg-black text-white overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#1f2937,transparent_60%)]"></div>
@@ -7,9 +8,11 @@ export default function App() {
       {/* Header */}
       <header className="relative z-10 flex items-center justify-between px-8 py-6 border-b border-gray-800">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-yellow-400 to-orange-600 flex items-center justify-center text-black font-bold text-xl shadow-lg shadow-yellow-500/30">
-            CG
-          </div>
+       <img
+  src="/logo.png"
+  alt="CoinGridAI Logo"
+  className="w-30 h-auto object-contain"
+/>
           <div>
             <h1 className="text-2xl font-bold tracking-wide">CoinGridAI</h1>
             <p className="text-sm text-gray-400">AI + Blockchain Evolution</p>
